@@ -345,6 +345,7 @@ span{
 .form-group {
   display: flex;
   justify-content: center;
+
 }
 
 .form-group input[type="email"] {
@@ -353,6 +354,7 @@ span{
   width: 300px;
   font-size: 1rem;
   border-radius: 4px 0 0 4px;
+    width:100%;
 }
 
 .form-group button {
