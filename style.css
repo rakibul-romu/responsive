@@ -4,7 +4,17 @@ body{
     padding: 0;
     box-sizing: border-box;
 
+
 }
+
+.raleway-noto {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
+
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -58,6 +68,7 @@ body{
     height: 100vh;
     margin-left: 100px;
     margin-right: 100px;
+    margin-top: 100px;
     
 }
 
@@ -74,11 +85,14 @@ span{
 .hero-section p{
     font-size: 1rem;
     color: #666;
+
 }
 
-.hero-image{
+.hero-image img{
     width: 100%;
-    height: auto;
+    
+    
+      height: 339px;;
    
   margin-bottom: 70px; 
 }
@@ -113,7 +127,7 @@ span{
     /* height: 350px;
     width:250px;
     border: 1px solid #ccc; */
-    width: 220px;
+    width: 200px;
       background-color: #ffffff;
       border-radius: 8px;
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -121,12 +135,13 @@ span{
       overflow: hidden;
       padding-bottom: 20px;
       margin-top:50 px;
+       width:100%;
     
 }
 
 .product-1{
     width: 100%;
-    height: auto;
+   
 }
 .product-item h5{
     /* font-size: 1.1rem;
@@ -181,7 +196,7 @@ span{
 
     .left-img {
       width: 100%;
-      height: 100%;
+     
       object-fit: cover;
       display: block;
       position: relative;
@@ -374,7 +389,7 @@ span{
 
 .footer-container {
   max-width: 1200px;
-  margin: 0 auto;
+ 
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
@@ -382,8 +397,8 @@ span{
 }
 
 .footer-section {
-  flex: 1 1 250px;
-  margin-left:100px
+  flex: 1 1 0px;
+  margin-left:100px;
 }
 
 .logo {
@@ -400,7 +415,7 @@ span{
 
 
 .description {
-  margin-top: 15px;
+   margin-top: 15px;
   font-size: 1rem;
   color: #666;
 }
@@ -482,13 +497,16 @@ span{
         margin-right: 20px;
     }
     .hero-image{
-        margin-right:20px 
+        margin-right:20px ;
+        margin-bottom:30px;
+        
     }
 
     .product-grid{
         grid-template-columns: repeat(2, 1fr);
         margin-left: 20px;
         margin-right: 20px;
+        gap:10px;
     }
 
     .section-2{
@@ -535,12 +553,8 @@ span{
     flex-direction: column;
    
   }
-
-  /* .social {
-    justify-content: center;
+  .footer-section{
+    margin-left: 20px;
   }
-  .logo img {
-    justify-content: center;
-  } */
 
 }
